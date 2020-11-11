@@ -9,6 +9,7 @@ $card-bg-color: #444;
 $card-with-color: false;
 $card-color-default: #333;
 
+/*! este es el cuerpo */
 body {
   font: 100% $font-family;
   color: $primary-color;
@@ -23,4 +24,5 @@ body {
 
  .card {
    color: $btn-text-color;
+   background-color: $card-bg-color;
  }
