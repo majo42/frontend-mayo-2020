@@ -1,0 +1,55 @@
+/*alert*/
+.alert-red {
+  font-size: 1rem;
+  color: red;
+  padding: 1rem;
+}
+
+.alert-green {
+  font-size: 1rem;
+  color: green;
+  padding: 1rem;
+}
+
+.alert-blue {
+  font-size: 1rem;
+  color: blue;
+  padding: 1rem;
+}
+
+/*toasts*/
+.toast-header {
+  font-size: 16px;
+  background-color: "#ccc";
+  padding: 10px;
+}
+
+.toast-button {
+  font-size: 14px;
+  background-color: "#333";
+  padding: 10px;
+}
+
+.toast-body {
+  font-size: 12px;
+  background-color: "#131313";
+  padding: 10px;
+}
+
+/*badge*/
+.badges-1 {
+  background-color: #494949;
+  font-size: 1rem;
+}
+
+.badges-2 {
+  background-color: #565656;
+  font-size: 2rem;
+}
+
+.badges-3 {
+  background-color: #626262;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

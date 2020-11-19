@@ -1,0 +1,37 @@
+/*alert*/
+
+$colors: red, green, blue;
+
+@each $color in $colors {
+  .alert-#{$color} {
+    font-size: 1rem;
+    color: $color;
+    padding: 1rem;
+  }
+}
+
+/*toasts*/
+
+$toasts:
+  "header" "#ccc" 16px,
+  "button" "#333" 14px,
+  "body" "#131313" 12px;
+
+@each $name, $color, $size in $toasts{
+  .toast-#{$name} {
+    font-size: $size;
+    background-color: $color;
+    padding: 10px;
+  }
+}
+
+/*badge*/
+
+$back-col: #3c3c3c;
+
+@for $i from 1 through 3 {
+  .badges-#{$i} {
+    background-color: lighten($back-col, $i * 5%);
+    font-size: 1rem * $i;
+  }
+}
